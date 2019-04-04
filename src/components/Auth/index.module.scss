@@ -1,0 +1,18 @@
+
+@import "../../styles/vars/colors.scss";
+html { 
+  background: url(../../assets/login-gb.111fd947.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.isInvalide{
+  display: block!important;
+}
+.errorMessage {
+    color: $ui-error;
+  }
+  .fadeoutMessage{
+    display: none;
+  }
